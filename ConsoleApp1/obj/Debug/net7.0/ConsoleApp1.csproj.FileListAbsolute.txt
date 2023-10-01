@@ -29,5 +29,3 @@ C:\Users\30765\Desktop\SignalRProjiect\WebApplication\ConsoleApp1\bin\Debug\net7
 C:\Users\30765\Desktop\SignalRProjiect\WebApplication\ConsoleApp1\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 C:\Users\30765\Desktop\SignalRProjiect\WebApplication\ConsoleApp1\bin\Debug\net7.0\System.IO.Pipelines.dll
 C:\Users\30765\Desktop\SignalRProjiect\WebApplication\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CopyComplete
-C:\Users\30765\Desktop\SignalRProjiect\WebApplication\ConsoleApp1\bin\Debug\net7.0\Microsoft.AspNet.SignalR.Client.dll
-C:\Users\30765\Desktop\SignalRProjiect\WebApplication\ConsoleApp1\bin\Debug\net7.0\Newtonsoft.Json.dll

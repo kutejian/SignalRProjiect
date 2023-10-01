@@ -29,11 +29,18 @@ namespace ConsoleApp1
             //注册服务响应 这个得写在await hubConnection.StartAsync();这个前面
             //这个表示接收服务发过来的数据 CallByHub是服务写的一个名
             //订阅服务端发过来的数据
-            hubConnection.On<string>("CallByHub", (message) =>
+            hubConnection.On<string>("CallByHub1", (message) =>
             {
-               Console.WriteLine("接收到来自 SignalR Hub 的消息：" + message);
+               Console.WriteLine("CallByHub1接收到来自 SignalR Hub 的消息：" + message);
             });
-
+            hubConnection.On<string>("CallByHub2", (message) =>
+            {
+                Console.WriteLine("CallByHub2接收到来自 SignalR Hub 的消息：" + message);
+            });
+            hubConnection.On<string>("CallByHub3", (message) =>
+            {
+                Console.WriteLine("CallByHub3接收到来自 SignalR Hub 的消息：" + message);
+            });
             return hubConnection;
         }
         public async Task CallByClient(HubConnection hubConnection, string msg)
